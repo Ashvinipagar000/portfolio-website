@@ -1,0 +1,172 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dhurjati&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dhurjati&family=Nova+Square&family=Nunito:wght@200&family=Oswald:wght@200&family=Source+Code+Pro:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background-color: rgb(168, 164, 164);
+    width: 25vw;
+    height: 80vh;
+    padding: 72px;
+    font-family: 'Dhurjati', sans-serif;
+    
+}
+.container{
+    display: flex;
+
+}
+.sidebar nav{
+    padding: 0px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 27px;
+    padding: 17px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+
+}
+.main{
+    background-color: white;
+    width: 80vw;
+}
+
+
+
+.infocontainer{
+background-color: rgb(241, 236, 236);
+height: 60vh;
+width: 80vw;
+margin: 113px auto;
+display: flex;
+
+justify-content: space-around;
+}
+
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    
+}
+.hello{
+    font-size: 50px;
+    font-family: 'Source Code Pro', monospace;
+}
+.name{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.about{
+    font-size: 25px;
+    font-family: 'Source Code Pro', monospace;
+
+}
+.moreabout{
+    font-size: 18px;
+    font-family: 'Source Code Pro', monospace;
+    margin-top: 20px;
+}
+.buttons{
+    margin-top:25px;
+}
+
+.buttons button{
+    
+    padding: 9px 10px;
+    border-radius: 17px;
+    color:white;
+    background-color: dodgerblue;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 3px;
+    cursor: pointer;
+
+}
+.buttons button:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+
+.devpic img{
+   height: 60vh;
+}
+
+.contactform{
+    padding: 51px;
+    margin: 39px;
+    margin-top: 120px auto;
+    display: flex;
+    background-color: rgb(231, 227, 227);
+}
+.mail{
+    padding: 30px;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    font-size: 22px;
+    
+}
+.phone{
+    padding: 30px;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    font-size: 22px;
+}
+.address{
+    padding: 30px;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    font-size: 22px;
+}
+.linkedin{
+    padding: 30px;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    font-size: 22px;
+}
+.aboutme{
+    font-weight: bolder;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 16px;
+    margin: 30px;
+    background-color: rgb(170, 165, 165);
+
+}
+.introduction{
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    font-size: 22px;
+    padding: 37px;
+    background-color: rgb(226, 223, 223);
+    
+
+}
+.skills{
+    font-weight: bolder;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 16px;
+    margin: 30px;
+    background-color: rgb(170, 165, 165);
+}
+.skillitem{
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgb(226, 223, 223);
+    
+}
+
+
+
