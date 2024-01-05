@@ -8,7 +8,7 @@
 }
 
 .sidebar{
-    background-color: rgb(168, 164, 164);
+    background-color: rgb(128, 146, 23);
     width: 25vw;
     height: 80vh;
     padding: 72px;
@@ -29,7 +29,7 @@
 }
 .sidebar nav li a{
     text-decoration: none;
-    color: black;
+    color: white;
 
 }
 .main{
@@ -53,6 +53,8 @@ justify-content: space-around;
     display: flex;
     justify-content: center;
     flex-direction:column;
+    background-color: rgb(231, 248, 79);
+    
     
 }
 .hello{
@@ -105,7 +107,7 @@ justify-content: space-around;
     margin: 39px;
     margin-top: 120px auto;
     display: flex;
-    background-color: rgb(231, 227, 227);
+    background-color: rgb(243, 190, 75);
 }
 .mail{
     padding: 30px;
@@ -131,6 +133,7 @@ justify-content: space-around;
     font-family: 'Source Code Pro', monospace;
     font-weight: bold;
     font-size: 22px;
+    
 }
 .aboutme{
     font-weight: bolder;
@@ -139,7 +142,7 @@ justify-content: space-around;
     text-align: center;
     margin-top: 16px;
     margin: 30px;
-    background-color: rgb(170, 165, 165);
+    background-color:rgb(240, 133, 12);
 
 }
 .introduction{
@@ -147,8 +150,7 @@ justify-content: space-around;
     font-weight: bold;
     font-size: 22px;
     padding: 37px;
-    background-color: rgb(226, 223, 223);
-    
+    background-color:white;    
 
 }
 .skills{
@@ -158,15 +160,36 @@ justify-content: space-around;
     text-align: center;
     margin-top: 16px;
     margin: 30px;
-    background-color: rgb(170, 165, 165);
+    background-color:rgb(240, 133, 12);
 }
 .skillitem{
     font-family: 'Source Code Pro', monospace;
     font-weight: bold;
     font-size: 20px;
-    background-color: rgb(226, 223, 223);
+    
     
 }
+.project{
+    text-align:justify;
+    justify-content:space-around;
+    background-color: white(235, 178, 57);
+    
+
+    
+}
+#pw{
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+#rps{
+    margin-bottom: 1rem;
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+
 
 
 
